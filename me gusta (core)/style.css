@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+    background-color: #ffffff; 
+    padding: 100px; 
+    max-width: 100%; 
+    margin: 40px auto; 
+    box-sizing: border-box; 
+    color: #292828; 
+}
+
+.header {
+    background-color: #2d2c2c; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.header h1 {
+    font-size: 30px; 
+    color: #ffffff; 
+    margin: 0;
+    top: 10px;
+    
+
+}
+
+.boddy {
+    font-size: 32px; 
+    color: #000000;
+    margin: 1px; 
+    width: 100%;
+    text-align: center;
+}
+.boddy h2 {
+    font-size: 30px; 
+    color: #000000; 
+    margin: 0;
+    right: 10px; 
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    gap: 50px; 
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px; 
+    
+}
+
+
+.profile {
+    border: solid 4px #000000;
+    padding: 20px; 
+    border-radius: 15px; 
+    text-align: center;
+    background-color: #ffffff; 
+    flex: 0 1 200px; 
+    height: 300px;
+    
+}
+
+.profile-img {
+    width: 160px; 
+    height: 160px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+}
+
+.profile-info h3 {
+
+    font-size: 36px; 
+    color: #000000; 
+    
+
+}
+
+
+.left-sections {
+    min-block-size: 100%;
+    width: 75%;
+    border-radius: 15px;
+
+}
+
+
+.section {
+    background-color: #eeeded; 
+    padding: 17px; 
+    border-radius: 10px;
+    border: solid 4px #000000;
+    margin-bottom: 10px;
+    height: 10%;
+    
+}
+
+.section h2 {
+    font-size: 25px; 
+    color: #000000;
+    top: -30px;
+    left: 2%;
+    position: relative;
+}
+
+.section h3{
+    
+    position: relative;
+    font-size: 20px; 
+    color: #000000;
+    top: -150px;
+    left: 80%;
+
+
+}
+
+.section p {
+    font-size: 15px;
+    color: #000000; 
+    position: relative;
+    top: -30px;
+    left: 2%;
+    
+    
+
+}
+
+
+.section-button {
+    position: relative;
+    top: -100px;
+    left: 90%;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fdde6c;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+
+.section-button:hover {
+    background-color: #333333;
+    color: #ffffff; 
+    transform: scale(1.1); 
+}
+
+.section-button:active {
+    background-color: #555555;
+}
+
+.likes-counter {
+
+    font-size: 15px; 
+    color: #000000;
+    left: 82%;
+    top: -185px;
+    position: relative;
+    font-weight: normal;
+}
+.link {
+    color: blue; 
+    text-decoration: underline; 
+}
+
+.link:hover {
+    color: darkblue; 
+}
